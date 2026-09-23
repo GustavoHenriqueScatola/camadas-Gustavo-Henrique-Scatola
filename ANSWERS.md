@@ -38,9 +38,9 @@ D) A asserção I é uma proposição falsa, e a II é uma proposição verdadei
 E) As asserções I e II são proposições falsas.
 
 **Resposta:**
-
+(A)
 **Justificativa (opcional):**
-
+O controller recebe o service pelo construtor, dessa forma facilitando os testes.
 ---
 
 ### Questão 2
@@ -67,9 +67,9 @@ D) `res.send(\`<h1>${name} created</h1>\`)`
 E) `const net = gross - gross * 0.11`
 
 **Resposta:**
-
+(E)
 **Justificativa (opcional):**
-
+É uma regra de negócio e não depende de HTTP ou SQL.
 ---
 
 ### Questão 3
@@ -95,9 +95,9 @@ D) I, II e IV, apenas.
 E) I, II, III e IV.
 
 **Resposta:**
-
+(D)
 **Justificativa (opcional):**
-
+Formato fica no DTO, regra de negócio fica no Service e o Repository cuida do SQL.
 ---
 
 ## Parte 4: estudo de caso
