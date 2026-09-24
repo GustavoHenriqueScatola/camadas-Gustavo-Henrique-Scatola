@@ -172,7 +172,11 @@ c) cite os arquivos do seu projeto que seriam alterados para atendê-lo.
 
 **Resposta:**
 
-O pedido que exige mais esforço é aplicar uma alíquota de INSS diferente conforme o estado da empresa. A separação em camadas organiza a mudança, porém, a regra de negócio ainda tem que ser modificada. dessa maneira, seria necessario alterar o employee.service.ts e usar o estado da empresa, que também podemos consultar company.repository.ts para obter o state.
+a) O pedido que exige mais esforço é aplicar uma alíquota de INSS diferente conforme o estado da empresa.
+
+b) A separação em camadas organiza a mudança, porém, a regra de negócio ainda tem que ser modificada.
+
+c) Dessa maneira, seria necessário alterar o employee.service.ts e usar o estado da empresa, que também podemos consultar no company.repository.ts para obter o state.
 
 ---
 
@@ -190,4 +194,8 @@ c) descreva como você corrigiu, ou como corrigiria.
 
 **Resposta:**
 
-acredito que o erro que mais cheguei perto de cometer foi o do controller monólito. quando comecei o projeto, era fácil colocar validações e outras responsabilidades diretamente no controller. eu corrigi separarando essas responsabilidades entre DTO, Service e Repository, deixando o controller apenas receber, chamar e responder.
+a) Acredito que o erro que mais cheguei perto de cometer foi o do controller monólito.
+
+b) Quando comecei o projeto, era fácil colocar validações e outras responsabilidades diretamente no controller.
+
+c) Eu corrigi separando essas responsabilidades entre DTO, Service e Repository, deixando o controller apenas receber, chamar e responder.
