@@ -1,6 +1,6 @@
 # Respostas
 
-Nome:
+Nome: Gustavo Henrique Scatola
 
 Como responder: nas questões objetivas, escreva a letra depois de **Resposta:**. A justificativa é opcional, mas ajuda na correção. Nas discursivas, escreva seu texto logo abaixo do enunciado.
 
@@ -128,9 +128,9 @@ C) II, apenas.
 D) II e III, apenas.
 E) I, II e III.
 
-**Resposta:**
+**Resposta: B**
 
-**Justificativa (opcional):**
+**Justificativa:** O CSV pode reaproveitar as camadas existentes, e a mudança do INSS fica concentrada no Service.
 
 ---
 
@@ -152,9 +152,9 @@ C) A asserção I é uma proposição verdadeira, e a II é uma proposição fal
 D) A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.
 E) As asserções I e II são proposições falsas.
 
-**Resposta:**
+**Resposta: C**
 
-**Justificativa (opcional):**
+**Justificativa:** I é verdadeira, mas II é falsa porque o TypeScript não impede erros causados por alterações no sistema.
 
 ---
 
@@ -172,6 +172,8 @@ c) cite os arquivos do seu projeto que seriam alterados para atendê-lo.
 
 **Resposta:**
 
+O pedido que exige mais esforço é aplicar uma alíquota de INSS diferente conforme o estado da empresa. A separação em camadas organiza a mudança, porém, a regra de negócio ainda tem que ser modificada. dessa maneira, seria necessario alterar o employee.service.ts e usar o estado da empresa, que também podemos consultar company.repository.ts para obter o state.
+
 ---
 
 ### Questão 7 (discursiva)
@@ -187,3 +189,5 @@ c) descreva como você corrigiu, ou como corrigiria.
 (Até 10 linhas.)
 
 **Resposta:**
+
+acredito que o erro que mais cheguei perto de cometer foi o do controller monólito. quando comecei o projeto, era fácil colocar validações e outras responsabilidades diretamente no controller. eu corrigi separarando essas responsabilidades entre DTO, Service e Repository, deixando o controller apenas receber, chamar e responder.
